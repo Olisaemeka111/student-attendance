@@ -89,3 +89,15 @@ See also the list of [contributors](https://github.com/olisaemeka111/my-v0-proje
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
+## Pushing to GitHub
+
+To add a remote repository, create a new branch, and push your code to GitHub, use the following commands:
+
+> Note: If the remote origin already exists, you can skip the first command.
+
+```sh
+git remote add origin https://github.com/Olisaemeka111/student-login-app.git
+git branch -M main
+git push -u origin main
+```
+
